@@ -1,0 +1,179 @@
+*{
+	scroll-behavior: smooth;
+}
+
+nav .navbar-brand .navbar-toggler .nav-link{
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+}
+.navbar-brand{
+	font-family: 'Pacifico';
+	font-size: 35px;
+}
+
+.nav-link{
+	font-size: 15px;
+	color: black;
+}
+
+.nav-link:hover{
+	font-size: 18px;
+}
+
+.site-content{
+	background-color: #FFED00;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+
+	
+
+}
+
+.title {
+	color:white;
+	font-family: 'Righteous';
+	font-size: 60px;
+	margin-top: 17%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.knw{
+	color:white ;
+	font-family: 'Righteous';
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 5%;
+	
+	
+}
+
+.img-fluid{
+	width: 260px;
+	height: 260px;
+	margin-bottom: 11%;
+	transition-delay: 100ms;
+
+}
+
+
+.img-fluid:hover{
+	transform: scale(1.2);
+}
+
+
+
+.section-1 .header-1{
+	margin-top: 50px;
+}
+
+.section-1 .header-2{
+	margin-bottom: 30px;
+}
+
+.section-1 .part-2{
+	margin-bottom: 30px;
+}
+
+.section-2 .row{
+	margin-top: 80px;
+	background-size: 100px;
+}
+
+.section-2 .card-body{
+	background-color: #FFED00;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+
+}
+
+.card-text{
+	color: white;
+}
+.card-title{
+	color: white;
+}
+
+
+
+.section-3 .container-fluid{
+	background-image: url(https://ewscripps.brightspotcdn.com/dims4/default/587a960/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F66%2Ffb%2Fbb8fd7b643ad8e0bf491d181429d%2Fmichael-ryno-sunflower-3.jpeg);
+	background-size:cover;
+	background-attachment:fixed;
+	margin-bottom: 90px;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+
+}
+.section-3 .container-fluid .heading-1{
+	margin-top:100px;
+	margin-left: 50px;
+	color: #FFFBF6;
+}
+
+.section-3 .container-fluid .heading-2{
+	margin-bottom: 20px;
+	margin-left: 50px;
+	color:#FFFBF6;
+}
+
+.btn{
+	margin-left: 50px;
+	margin-bottom: 80px;
+	
+}
+
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
